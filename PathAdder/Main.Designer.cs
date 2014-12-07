@@ -98,6 +98,7 @@
 			this.KeyPreview = true;
 			this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.Name = "Main";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Path Appender";
 			this.Load += new System.EventHandler(this.Main_Load);
 			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
